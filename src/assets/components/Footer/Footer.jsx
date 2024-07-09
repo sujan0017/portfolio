@@ -15,22 +15,22 @@ function Footer() {
         <div className="flex gap-8 ">
           <Link to='https://www.facebook.com/bk.sujan017'>
             <div className=' hover:bg-white hover:bg-opacity-25 w-14 h-14 rounded-full p-2 flex justify-center items-center  '>
-              <i className="fa-brands fa-facebook text-3xl p-1 rounded-full text-white "></i>
+              <i className="fa-brands fa-facebook text-4xl p-1 rounded-full text-white "></i>
             </div>
           </Link>
           <Link to='https://www.instagram.com/sujan_017/'>
             <div className=' hover:bg-white hover:bg-opacity-25 w-14 h-14 rounded-full p-2 flex justify-center items-center  '>
-              <i className="fa-brands fa-instagram text-3xl p-1 rounded-full text-white "></i>
+              <i className="fa-brands fa-instagram text-4xl p-1 rounded-full text-white "></i>
             </div>
           </Link>
           <Link to='https://www.linkedin.com/in/sujan-bk-b9a288250/'>
             <div className=' hover:bg-white hover:bg-opacity-25 w-14 h-14 rounded-full p-2 flex justify-center items-center  '>
-              <i className="fa-brands fa-linkedin text-3xl p-1 rounded-full text-white "></i>
+              <i className="fa-brands fa-linkedin text-4xl p-1 rounded-full text-white "></i>
             </div>
           </Link>
           <Link to='https://github.com/sujan0017'>
             <div className=' hover:bg-white hover:bg-opacity-25 w-14 h-14 rounded-full p-2 flex justify-center items-center  '>
-              <i className="fa-brands fa-github text-3xl p-1 rounded-full text-white "></i>
+              <i className="fa-brands fa-github text-4xl p-1 rounded-full text-white "></i>
             </div>
           </Link>     
         </div>

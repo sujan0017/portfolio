@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Heading = ({title, subTitle, fontSize = 'text-4xl'}) => {
+const Heading = ({title, subTitle }) => {
   return (
-    <div className='flex flex-col gap-7 items-center'>
-     <h1 className={` ${fontSize} font-bold tracing-wide`}>{title}</h1>
-     <p className='text-lg tracking-wider'>{subTitle}</p> 
+    <div className='flex flex-col md:gap-7 gap-4 items-center'>
+     <h1 className={`text-size-600 md:text-size-800 font-bold tracing-wide text-center `}>{title}</h1>
+     <p className='tracking-wider text-center text-size-300 '>{subTitle}</p> 
     </div>
   )
 }

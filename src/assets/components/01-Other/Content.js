@@ -5,9 +5,7 @@ import imgreact from '..//../images/icon-react.png'
 import imgtailwind from '..//../images/icon-tailwind.png'
 import imggithub from '..//../images/icon-github.png'
 import imgvscode from '..//../images/icon-vscode.png'
-
 import image1 from '../../images/img2.jpg'
-
 import logoWhite from '../../images/logo-white.png'
 import logoBlue from '../../images/logo.png'
 
@@ -55,38 +53,44 @@ import logoBlue from '../../images/logo.png'
   {
     id: 1,
     img: image1,
-    heading: "heading one",
-    description: " a little description may be 1"
+    heading: "FoodHub",
+    description: "I created a responsive front-end project for my college project, ensuring it adapts to various devices with an intuitive design and smooth navigation.",
+    link: "https://github.com/sujan0017/FoodHub"
   },
   {
     id: 2,
     img: image1,
-    heading: "heading Two",
-    description: " a little description may be 2"
+    heading: "Loruki website",
+    description: "I created a responsive front-end project by following a Loruki website tutorial on YouTube. This project adapts to various devices and features an intuitive design.",
+    link: "https://github.com/sujan0017/Loruki-website"
   },
   {
     id: 3,
     img: image1,
-    heading: "heading Three",
-    description: " a little description may be 3"
+    heading: "South Village Run Club",
+    description: "I created a responsive front-end project for practice using HTML and CSS. It adapts to various devices and features an intuitive design.",
+    link:"https://github.com/sujan0017/South-Village-Run-Club"
   },
   {
     id: 4,
     img: image1,
-    heading: "heading one",
-    description: " a little description may be 1"
+    heading: "Tsunami Coffee",
+    description: "I developed a responsive front-end project for practice using HTML and CSS. It features an intuitive design that adapts seamlessly to different devices.",
+    link:"https://github.com/sujan0017/Tsunami-Coffee"
   },
   {
     id: 5,
     img: image1,
-    heading: "heading Two",
-    description: " a little description may be 2"
+    heading: "The VC Experience",
+    description: "I developed a responsive front-end project inspired by Codecademy, using HTML and CSS. It features an intuitive design that adapts seamlessly to different devices.",
+    link:"https://github.com/sujan0017/The-VC-Experience"
   },
   {
     id: 6,
     img: image1,
-    heading: "heading Three",
-    description: " a little description may be 3"
+    heading: "Jhilkey",
+    description: "I'm working on a social media front-end for a startup using HTML and CSS. The project is still in progress, with new ideas and features being added as they come.",
+    link: "https://github.com/sujan0017/jhilkey"
   },
 ]
 

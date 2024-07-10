@@ -10,7 +10,7 @@ function Header() {
     <div className='flex justify-between items-cente p-7 mx-auto lg:py-10 lg:px-20 '>
       <Logo />
       <nav className='flex gap-5 items-center'>
-        <Link to="/" className=' tracking-wide lg:text-size-400 text-size-300 '>Home</Link>
+        <Link to="/" className=' tracking-wide text-size-300 '>Home</Link>
         <Link to="/contact-me"><LightButton btnTitle="Say Hello"/></Link>
       </nav>
 

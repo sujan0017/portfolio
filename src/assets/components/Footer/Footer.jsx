@@ -7,11 +7,12 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div className='bg-secondaryBlue py-20 flex flex-col gap-16'>
-      <div className=' flex flex-col items-center justify-center gap-9 '>
+    <div className='bg-secondaryBlue md:py-20 py-10 flex flex-col md:gap-16 gap-7 '>
+      <div className=' flex flex-col items-center justify-center md:gap-9 gap-5 '>
       <Logo img={logoImg[1]} />
-        <p className=' tracking-wider text-white'>+977 982-3741464</p>
-        <p className=' tracking-wider text-white'>Kathmandu, Nepal</p>
+        <p className=' tracking-wider text-white sm:text-size-300 text-size-200'>+977 982-3741464</p>
+        <p className=' tracking-wider text-white sm:text-size-300 text-size-200'>Kathmandu, Nepal</p>
+        <p className=' tracking-wider text-white sm:text-size-300 text-size-200'>Contact me at: bk.sujan1215@gmail.com</p>
         <div className="flex gap-8 ">
           <Link to='https://www.facebook.com/bk.sujan017'>
             <div className=' hover:bg-white hover:bg-opacity-25 w-14 h-14 rounded-full p-2 flex justify-center items-center  '>
@@ -36,7 +37,7 @@ function Footer() {
         </div>
       </div >
       <div className='border-t-2 w-full'></div>
-      <p className='text-center text-sm tracking-wider text-white'>© 2024 All rights are reserved | Made with love by SujAn</p>
+      <p className='text-center text-size-100 sm:text-size-200 tracking-wider text-white'>© 2024 All rights are reserved | Made with love by SujAn</p>
     </div>
   )
 }
